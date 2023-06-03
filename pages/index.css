@@ -117,7 +117,7 @@ span {
   box-sizing: border-box;
 }
 
-.footer__list {
+.header__list {
   list-style-type: none;
   margin-left: 80px;
   position: absolute;
