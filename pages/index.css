@@ -73,7 +73,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
-.header__title:last-of-type {
+span {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -116,8 +116,7 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
-.footer__column {
-}
+
 .footer__list {
   list-style-type: none;
   margin-left: 80px;
@@ -171,6 +170,10 @@
   justify-content: center;
   height: 273px;
 }
+.recipes__iframe {
+  justify-content: center;
+}
+
 .recipes__iframe {
   justify-content: center;
 }
