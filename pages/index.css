@@ -186,7 +186,7 @@ span {
   color: #ffffff;
   margin-bottom: 215px;
 }
-.reservation__form {
+.reservation {
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-size: cover;
@@ -194,18 +194,20 @@ span {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 0 0 215px;
+  padding: 90px 0 215px;
+}
+.reservation__form {
   display: flex;
   justify-content: center;
 }
 .reservation__title {
-  margin-top: 100px;
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 .form {
