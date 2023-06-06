@@ -130,16 +130,17 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <div class="reservation__form">
-            <form class="form">
+            <form class="form reservation__form">
               <fieldset class="form__fieldset">
-                <label for="Name" class="form__label">Name*</label>
+                <label for="Name" class="form__label"> Name*</label>
                 <input
                   type="text"
                   class="form__input"
-                  id="Name*"
+                  id="Name"
                   placeholder="Name Surname"
                   required
                 />
+
                 <label for="number-of-guests" class="form__label"
                   >Number of guests*</label
                 >
@@ -150,8 +151,9 @@
                   placeholder="1-8"
                   required
                   class="form__input"
-                  id="number-of-guests*"
+                  id="number-of-guests"
                 />
+
                 <label for="Date-&-time" class="form__label"
                   >Date & time*
                 </label>
@@ -159,9 +161,10 @@
                   type="datetime-local"
                   required
                   class="form__input"
-                  id="Date-&-time*"
+                  id="Date-&-time"
                 />
-                <label for="Your-email" class="form__label">Your email*</label>
+
+                <label for="Your-email" class="form__label"> Your email*</label>
                 <input
                   type="email"
                   placeholder="email@email.com"
@@ -169,6 +172,7 @@
                   class="form__input"
                   id="Your-email*"
                 />
+
                 <button type="submit" class="form__button">Book a table</button>
               </fieldset>
               <fieldset class="form__fieldset">
