@@ -210,9 +210,6 @@ span {
   justify-content: center;
 }
 
-.form {
-  margin-top: 180px;
-}
 .form__fieldset {
   max-width: 385px;
   border: none;
