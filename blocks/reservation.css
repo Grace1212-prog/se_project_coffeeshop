@@ -17,3 +17,9 @@
   display: flex;
   justify-content: center;
 }
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
