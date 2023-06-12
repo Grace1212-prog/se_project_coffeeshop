@@ -11,9 +11,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-}
-.card__list {
-  padding: 0;
+  margin-bottom: 32px;
 }
 .card__list-item {
   display: flex;
@@ -24,6 +22,7 @@
   line-height: 20px;
   list-style-type: none;
   align-items: baseline;
+  margin-bottom: 16px;
 }
 .card__list-divider {
   background-color: #000000;

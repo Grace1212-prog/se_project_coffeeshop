@@ -13,7 +13,7 @@
   background-color: #ffffff;
   background-size: cover;
 }
-.header__title {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -21,12 +21,10 @@
   line-height: 72px;
   color: #2f80ed;
   max-width: 729px;
-}
-.header__title:first-of-type {
-  margin: 0;
+  display: block;
   margin-top: 80px;
 }
-span {
+.header__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -34,16 +32,18 @@ span {
   line-height: 72px;
   color: #000000;
   margin-top: 0;
+  margin-bottom: 28px;
+  margin-left: 80px;
 }
 .header__description {
   max-width: 638px;
-  margin-top: 28px;
   margin-bottom: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 80px;
 }
 .header__image {
   z-index: 1;
@@ -70,6 +70,7 @@ span {
   position: absolute;
   bottom: 40px;
   padding: 0;
+  margin-left: 80px;
 }
 .header__address {
   position: absolute;

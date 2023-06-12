@@ -50,4 +50,5 @@
 }
 .form__label_type_checkbox {
   align-self: flex-end;
+  gap: 12px;
 }
