@@ -1,5 +1,4 @@
 .header {
-  padding: 0 80px 80px;
   display: flex;
   background-repeat: no-repeat;
   background-position: right;
@@ -34,6 +33,7 @@
   margin-top: 0;
   margin-bottom: 28px;
   margin-left: 80px;
+  max-width: 729px;
 }
 .header__description {
   max-width: 638px;
