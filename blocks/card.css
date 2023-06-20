@@ -1,7 +1,5 @@
 .card {
   width: 540px;
-  display: flex;
-  flex-direction: column;
   margin-top: 100px;
   margin-left: 100px;
 }
@@ -11,7 +9,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 32px;
+  margin: 0 0 32px;
 }
 .card__list {
   padding: 0;
@@ -27,10 +25,14 @@
   align-items: baseline;
   margin-bottom: 16px;
 }
+.card__list-item:last-of-type {
+  margin-bottom: 100px;
+}
 .card__list-divider {
   background-color: #000000;
   height: 1px;
   padding: 0;
   min-width: 50px;
   flex-grow: 1;
+  gap: 0;
 }

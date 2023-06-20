@@ -11,6 +11,7 @@
   background-image: url(../images/background_header.svg);
   background-color: #ffffff;
   background-size: cover;
+  z-index: 1;
 }
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -37,16 +38,15 @@
 }
 .header__description {
   max-width: 638px;
-  margin-bottom: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 80px;
+  margin: 0 0 0 80px;
 }
 .header__image {
-  z-index: 1;
+  z-index: -1;
   margin-top: 124px;
   right: 5px;
   width: 646px;
@@ -64,17 +64,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  margin-top: auto;
 }
-.header__list {
-  list-style-type: none;
-  position: absolute;
-  bottom: 40px;
-  padding: 0;
-  margin-left: 80px;
-}
-.header__address {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+.header__paragraph {
   z-index: 3;
+  margin: 0;
+  margin-left: 80px;
 }

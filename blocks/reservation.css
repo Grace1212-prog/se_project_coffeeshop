@@ -3,19 +3,17 @@
   background-color: #d9e7ff;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  padding: 90px 0 215px;
+  padding: 100px 0 120px;
 }
 .reservation__title {
-  font-family: "inter";
+  font-family: "inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   display: flex;
   justify-content: center;
+  margin: 0 0 80px;
 }
 .reservation__form {
   display: flex;
