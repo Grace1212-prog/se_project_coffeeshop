@@ -18,6 +18,8 @@
   position: relative;
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
+  gap: 120px;
 }
 .about__paragraph {
   margin-top: 0;
