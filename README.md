@@ -23,7 +23,5 @@ some pictures of the project features
 ![embedded youtube videos](<embedded  youtube videos .png>)
 ![Hot drinks menu](<drinks menu.png>)
 
-<<<<<<< HEAD
 https://grace1212-prog.github.io/se_project_coffeeshop/
-=======
->>>>>>> 372fe03cb524d9a90e77c36fda8c4348a87b9539
+
