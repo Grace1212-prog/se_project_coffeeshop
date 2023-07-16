@@ -26,5 +26,4 @@ some pictures of the project features
 <<<<<<< HEAD
 https://grace1212-prog.github.io/se_project_coffeeshop/
 =======
-https://github.com/Grace1212-prog/se_project_coffeeshop
 >>>>>>> 372fe03cb524d9a90e77c36fda8c4348a87b9539
